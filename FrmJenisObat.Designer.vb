@@ -31,6 +31,8 @@ Partial Class FrmJenisObat
         Me.BtnHapus = New System.Windows.Forms.Button()
         Me.BtnUbah = New System.Windows.Forms.Button()
         Me.BtnSimpan = New System.Windows.Forms.Button()
+        Me.BtnTutup = New System.Windows.Forms.Button()
+        Me.BtnBatal = New System.Windows.Forms.Button()
         CType(Me.DGJenisObat, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -41,7 +43,7 @@ Partial Class FrmJenisObat
         Me.DGJenisObat.Margin = New System.Windows.Forms.Padding(6)
         Me.DGJenisObat.Name = "DGJenisObat"
         Me.DGJenisObat.RowHeadersWidth = 82
-        Me.DGJenisObat.Size = New System.Drawing.Size(785, 323)
+        Me.DGJenisObat.Size = New System.Drawing.Size(1034, 323)
         Me.DGJenisObat.TabIndex = 15
         '
         'txtJenisObat
@@ -120,11 +122,39 @@ Partial Class FrmJenisObat
         Me.BtnSimpan.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.BtnSimpan.UseVisualStyleBackColor = True
         '
+        'BtnTutup
+        '
+        Me.BtnTutup.Image = CType(resources.GetObject("BtnTutup.Image"), System.Drawing.Image)
+        Me.BtnTutup.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.BtnTutup.Location = New System.Drawing.Point(967, 31)
+        Me.BtnTutup.Margin = New System.Windows.Forms.Padding(6)
+        Me.BtnTutup.Name = "BtnTutup"
+        Me.BtnTutup.Size = New System.Drawing.Size(112, 104)
+        Me.BtnTutup.TabIndex = 32
+        Me.BtnTutup.Text = "Tutup"
+        Me.BtnTutup.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.BtnTutup.UseVisualStyleBackColor = True
+        '
+        'BtnBatal
+        '
+        Me.BtnBatal.Image = CType(resources.GetObject("BtnBatal.Image"), System.Drawing.Image)
+        Me.BtnBatal.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.BtnBatal.Location = New System.Drawing.Point(843, 31)
+        Me.BtnBatal.Margin = New System.Windows.Forms.Padding(6)
+        Me.BtnBatal.Name = "BtnBatal"
+        Me.BtnBatal.Size = New System.Drawing.Size(112, 104)
+        Me.BtnBatal.TabIndex = 31
+        Me.BtnBatal.Text = "Batal"
+        Me.BtnBatal.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.BtnBatal.UseVisualStyleBackColor = True
+        '
         'FrmJenisObat
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(879, 546)
+        Me.ClientSize = New System.Drawing.Size(1121, 546)
+        Me.Controls.Add(Me.BtnTutup)
+        Me.Controls.Add(Me.BtnBatal)
         Me.Controls.Add(Me.DGJenisObat)
         Me.Controls.Add(Me.txtJenisObat)
         Me.Controls.Add(Me.txtKodeJenis)
@@ -149,4 +179,6 @@ Partial Class FrmJenisObat
     Friend WithEvents BtnHapus As Button
     Friend WithEvents BtnUbah As Button
     Friend WithEvents BtnSimpan As Button
+    Friend WithEvents BtnTutup As Button
+    Friend WithEvents BtnBatal As Button
 End Class
