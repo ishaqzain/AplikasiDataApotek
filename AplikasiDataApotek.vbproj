@@ -93,6 +93,12 @@
     <Compile Include="FrmObat.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FrmUser.Designer.vb">
+      <DependentUpon>FrmUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -119,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmObat.resx">
       <DependentUpon>FrmObat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUser.resx">
+      <DependentUpon>FrmUser.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
