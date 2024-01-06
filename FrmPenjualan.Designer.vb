@@ -45,7 +45,7 @@ Partial Class FrmPenjualan
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(811, 31)
+        Me.Label1.Location = New System.Drawing.Point(422, 25)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(175, 25)
         Me.Label1.TabIndex = 0
@@ -81,7 +81,7 @@ Partial Class FrmPenjualan
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(376, 128)
+        Me.Label5.Location = New System.Drawing.Point(264, 127)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(191, 25)
         Me.Label5.TabIndex = 4
@@ -90,7 +90,7 @@ Partial Class FrmPenjualan
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(821, 128)
+        Me.Label6.Location = New System.Drawing.Point(709, 127)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(107, 25)
         Me.Label6.TabIndex = 5
@@ -103,7 +103,7 @@ Partial Class FrmPenjualan
         Me.DGPenjualan.Name = "DGPenjualan"
         Me.DGPenjualan.RowHeadersWidth = 82
         Me.DGPenjualan.RowTemplate.Height = 33
-        Me.DGPenjualan.Size = New System.Drawing.Size(1109, 477)
+        Me.DGPenjualan.Size = New System.Drawing.Size(1443, 558)
         Me.DGPenjualan.TabIndex = 6
         '
         'txtJumlah
@@ -131,7 +131,7 @@ Partial Class FrmPenjualan
         'LblFaktur
         '
         Me.LblFaktur.BackColor = System.Drawing.Color.Yellow
-        Me.LblFaktur.Location = New System.Drawing.Point(1004, 28)
+        Me.LblFaktur.Location = New System.Drawing.Point(615, 22)
         Me.LblFaktur.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.LblFaktur.Name = "LblFaktur"
         Me.LblFaktur.Size = New System.Drawing.Size(136, 31)
@@ -144,7 +144,7 @@ Partial Class FrmPenjualan
         Me.LblTotalHarga.BackColor = System.Drawing.Color.ForestGreen
         Me.LblTotalHarga.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.875!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LblTotalHarga.ForeColor = System.Drawing.Color.White
-        Me.LblTotalHarga.Location = New System.Drawing.Point(937, 125)
+        Me.LblTotalHarga.Location = New System.Drawing.Point(825, 124)
         Me.LblTotalHarga.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.LblTotalHarga.Name = "LblTotalHarga"
         Me.LblTotalHarga.Size = New System.Drawing.Size(203, 31)
@@ -155,7 +155,7 @@ Partial Class FrmPenjualan
         'lblHarga
         '
         Me.lblHarga.BackColor = System.Drawing.Color.OldLace
-        Me.lblHarga.Location = New System.Drawing.Point(589, 125)
+        Me.lblHarga.Location = New System.Drawing.Point(477, 124)
         Me.lblHarga.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lblHarga.Name = "lblHarga"
         Me.lblHarga.Size = New System.Drawing.Size(192, 31)
@@ -167,7 +167,7 @@ Partial Class FrmPenjualan
         '
         Me.BtnTutup.Image = CType(resources.GetObject("BtnTutup.Image"), System.Drawing.Image)
         Me.BtnTutup.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.BtnTutup.Location = New System.Drawing.Point(1028, 714)
+        Me.BtnTutup.Location = New System.Drawing.Point(1362, 53)
         Me.BtnTutup.Margin = New System.Windows.Forms.Padding(6)
         Me.BtnTutup.Name = "BtnTutup"
         Me.BtnTutup.Size = New System.Drawing.Size(112, 104)
@@ -180,7 +180,7 @@ Partial Class FrmPenjualan
         '
         Me.BtnHapus.Image = CType(resources.GetObject("BtnHapus.Image"), System.Drawing.Image)
         Me.BtnHapus.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.BtnHapus.Location = New System.Drawing.Point(756, 714)
+        Me.BtnHapus.Location = New System.Drawing.Point(1090, 53)
         Me.BtnHapus.Margin = New System.Windows.Forms.Padding(6)
         Me.BtnHapus.Name = "BtnHapus"
         Me.BtnHapus.Size = New System.Drawing.Size(112, 104)
@@ -193,7 +193,7 @@ Partial Class FrmPenjualan
         '
         Me.BtnBatal.Image = CType(resources.GetObject("BtnBatal.Image"), System.Drawing.Image)
         Me.BtnBatal.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.BtnBatal.Location = New System.Drawing.Point(894, 714)
+        Me.BtnBatal.Location = New System.Drawing.Point(1228, 53)
         Me.BtnBatal.Margin = New System.Windows.Forms.Padding(6)
         Me.BtnBatal.Name = "BtnBatal"
         Me.BtnBatal.Size = New System.Drawing.Size(112, 104)
@@ -206,7 +206,7 @@ Partial Class FrmPenjualan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1176, 847)
+        Me.ClientSize = New System.Drawing.Size(1506, 786)
         Me.Controls.Add(Me.BtnBatal)
         Me.Controls.Add(Me.BtnTutup)
         Me.Controls.Add(Me.BtnHapus)

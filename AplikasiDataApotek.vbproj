@@ -87,6 +87,12 @@
       <DependentUpon>FrmLogin.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FrmMainMenu.Designer.vb">
+      <DependentUpon>FrmMainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmObat.Designer.vb">
       <DependentUpon>FrmObat.vb</DependentUpon>
     </Compile>
@@ -128,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMainMenu.resx">
+      <DependentUpon>FrmMainMenu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmObat.resx">
       <DependentUpon>FrmObat.vb</DependentUpon>
