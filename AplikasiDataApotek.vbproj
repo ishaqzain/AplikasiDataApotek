@@ -93,6 +93,12 @@
     <Compile Include="FrmObat.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FrmPenjualan.Designer.vb">
+      <DependentUpon>FrmPenjualan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPenjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmUser.Designer.vb">
       <DependentUpon>FrmUser.vb</DependentUpon>
     </Compile>
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmObat.resx">
       <DependentUpon>FrmObat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPenjualan.resx">
+      <DependentUpon>FrmPenjualan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmUser.resx">
       <DependentUpon>FrmUser.vb</DependentUpon>

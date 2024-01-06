@@ -47,7 +47,7 @@ Partial Class FrmUser
         '
         Me.BtnTutup.Image = CType(resources.GetObject("BtnTutup.Image"), System.Drawing.Image)
         Me.BtnTutup.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.BtnTutup.Location = New System.Drawing.Point(1024, 160)
+        Me.BtnTutup.Location = New System.Drawing.Point(1024, 164)
         Me.BtnTutup.Margin = New System.Windows.Forms.Padding(6)
         Me.BtnTutup.Name = "BtnTutup"
         Me.BtnTutup.Size = New System.Drawing.Size(112, 104)
@@ -60,7 +60,7 @@ Partial Class FrmUser
         '
         Me.BtnBatal.Image = CType(resources.GetObject("BtnBatal.Image"), System.Drawing.Image)
         Me.BtnBatal.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.BtnBatal.Location = New System.Drawing.Point(900, 160)
+        Me.BtnBatal.Location = New System.Drawing.Point(900, 164)
         Me.BtnBatal.Margin = New System.Windows.Forms.Padding(6)
         Me.BtnBatal.Name = "BtnBatal"
         Me.BtnBatal.Size = New System.Drawing.Size(112, 104)
@@ -73,7 +73,7 @@ Partial Class FrmUser
         '
         Me.BtnHapus.Image = CType(resources.GetObject("BtnHapus.Image"), System.Drawing.Image)
         Me.BtnHapus.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.BtnHapus.Location = New System.Drawing.Point(776, 160)
+        Me.BtnHapus.Location = New System.Drawing.Point(776, 164)
         Me.BtnHapus.Margin = New System.Windows.Forms.Padding(6)
         Me.BtnHapus.Name = "BtnHapus"
         Me.BtnHapus.Size = New System.Drawing.Size(112, 104)
@@ -86,7 +86,7 @@ Partial Class FrmUser
         '
         Me.BtnUbah.Image = CType(resources.GetObject("BtnUbah.Image"), System.Drawing.Image)
         Me.BtnUbah.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.BtnUbah.Location = New System.Drawing.Point(652, 160)
+        Me.BtnUbah.Location = New System.Drawing.Point(652, 164)
         Me.BtnUbah.Margin = New System.Windows.Forms.Padding(6)
         Me.BtnUbah.Name = "BtnUbah"
         Me.BtnUbah.Size = New System.Drawing.Size(112, 104)
@@ -99,7 +99,7 @@ Partial Class FrmUser
         '
         Me.BtnSimpan.Image = CType(resources.GetObject("BtnSimpan.Image"), System.Drawing.Image)
         Me.BtnSimpan.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.BtnSimpan.Location = New System.Drawing.Point(528, 160)
+        Me.BtnSimpan.Location = New System.Drawing.Point(528, 164)
         Me.BtnSimpan.Margin = New System.Windows.Forms.Padding(6)
         Me.BtnSimpan.Name = "BtnSimpan"
         Me.BtnSimpan.Size = New System.Drawing.Size(112, 104)
