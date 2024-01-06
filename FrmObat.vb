@@ -123,6 +123,10 @@
             txtNamaObat.Focus()
             Exit Sub
         End If
+        If cmbJenisObat.Text = "" Then
+            cmbJenisObat.Focus()
+            Exit Sub
+        End If
         If txtStock.Text = "" Then
             txtStock.Focus()
             Exit Sub
@@ -131,7 +135,7 @@
             txtHarga.Focus()
             Exit Sub
         End If
-        SQL = "Update tblObat set nama_obat = '" & txtNamaObat.Text & "',Stock = '" & txtStock.Text & "',Harga = '" & txtHarga.Text & "' Where Kode_Obat = '" & txtKodeObat.Text & "'"
+        SQL = "Update tblObat set nama_obat = '" & txtNamaObat.Text & "',Jenis = '" & Val(cmbJenisObat.Text) & "',Stock = '" & txtStock.Text & "',Harga = '" & txtHarga.Text & "' Where Kode_Obat = '" & txtKodeObat.Text & "'"
         Proses.ExecuteNonQuery(SQL)
         MessageBox.Show("Data Berhasil dirubah..!!", "Perubahan Data Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information)
         Call Bersih()
