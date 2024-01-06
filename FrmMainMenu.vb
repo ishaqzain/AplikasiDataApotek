@@ -18,4 +18,9 @@
         FrmPenjualan.MdiParent = Me
         FrmPenjualan.Show()
     End Sub
+
+    Private Sub LprObatToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles LprObatToolStripMenuItem1.Click
+        FrmLprDataObat.MdiParent = Me
+        FrmLprDataObat.Show()
+    End Sub
 End Class
