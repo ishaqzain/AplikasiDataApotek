@@ -22,7 +22,7 @@ Partial Class FrmHakAkses
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnOk = New System.Windows.Forms.Button()
+        Me.btnSave = New System.Windows.Forms.Button()
         Me.ChkAkses = New System.Windows.Forms.CheckBox()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.ChkLprJual = New System.Windows.Forms.CheckBox()
@@ -34,7 +34,7 @@ Partial Class FrmHakAkses
         Me.ChkJenis = New System.Windows.Forms.CheckBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.ChkUser = New System.Windows.Forms.CheckBox()
-        Me.CmbLevel = New System.Windows.Forms.ComboBox()
+        Me.CmbRole = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox4.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -42,15 +42,15 @@ Partial Class FrmHakAkses
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'btnOk
+        'btnSave
         '
-        Me.btnOk.Location = New System.Drawing.Point(747, 490)
-        Me.btnOk.Margin = New System.Windows.Forms.Padding(6)
-        Me.btnOk.Name = "btnOk"
-        Me.btnOk.Size = New System.Drawing.Size(150, 44)
-        Me.btnOk.TabIndex = 23
-        Me.btnOk.Text = "SAVE"
-        Me.btnOk.UseVisualStyleBackColor = True
+        Me.btnSave.Location = New System.Drawing.Point(747, 490)
+        Me.btnSave.Margin = New System.Windows.Forms.Padding(6)
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(150, 44)
+        Me.btnSave.TabIndex = 23
+        Me.btnSave.Text = "SAVE"
+        Me.btnSave.UseVisualStyleBackColor = True
         '
         'ChkAkses
         '
@@ -180,14 +180,14 @@ Partial Class FrmHakAkses
         Me.ChkUser.Text = "Users"
         Me.ChkUser.UseVisualStyleBackColor = True
         '
-        'CmbLevel
+        'CmbRole
         '
-        Me.CmbLevel.FormattingEnabled = True
-        Me.CmbLevel.Location = New System.Drawing.Point(173, 29)
-        Me.CmbLevel.Margin = New System.Windows.Forms.Padding(6)
-        Me.CmbLevel.Name = "CmbLevel"
-        Me.CmbLevel.Size = New System.Drawing.Size(238, 33)
-        Me.CmbLevel.TabIndex = 17
+        Me.CmbRole.FormattingEnabled = True
+        Me.CmbRole.Location = New System.Drawing.Point(173, 29)
+        Me.CmbRole.Margin = New System.Windows.Forms.Padding(6)
+        Me.CmbRole.Name = "CmbRole"
+        Me.CmbRole.Size = New System.Drawing.Size(238, 33)
+        Me.CmbRole.TabIndex = 17
         '
         'Label1
         '
@@ -195,21 +195,21 @@ Partial Class FrmHakAkses
         Me.Label1.Location = New System.Drawing.Point(37, 34)
         Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(76, 25)
+        Me.Label1.Size = New System.Drawing.Size(62, 25)
         Me.Label1.TabIndex = 16
-        Me.Label1.Text = "Level :"
+        Me.Label1.Text = "Role:"
         '
         'FrmHakAkses
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(928, 571)
-        Me.Controls.Add(Me.btnOk)
+        Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.CmbLevel)
+        Me.Controls.Add(Me.CmbRole)
         Me.Controls.Add(Me.Label1)
         Me.Name = "FrmHakAkses"
         Me.Text = "Hak Akses"
@@ -226,7 +226,7 @@ Partial Class FrmHakAkses
 
     End Sub
 
-    Friend WithEvents btnOk As Button
+    Friend WithEvents btnSave As Button
     Friend WithEvents ChkAkses As CheckBox
     Friend WithEvents GroupBox4 As GroupBox
     Friend WithEvents ChkLprJual As CheckBox
@@ -238,6 +238,6 @@ Partial Class FrmHakAkses
     Friend WithEvents ChkJenis As CheckBox
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents ChkUser As CheckBox
-    Friend WithEvents CmbLevel As ComboBox
+    Friend WithEvents CmbRole As ComboBox
     Friend WithEvents Label1 As Label
 End Class
