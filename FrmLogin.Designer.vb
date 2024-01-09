@@ -45,6 +45,7 @@ Partial Class FrmLogin
         '
         Me.TxtPassword.Location = New System.Drawing.Point(196, 80)
         Me.TxtPassword.Name = "TxtPassword"
+        Me.TxtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TxtPassword.Size = New System.Drawing.Size(252, 31)
         Me.TxtPassword.TabIndex = 14
         '

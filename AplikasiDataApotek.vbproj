@@ -113,6 +113,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClsKoneksi.vb" />
+    <Compile Include="FrmHakAkses.Designer.vb">
+      <DependentUpon>FrmHakAkses.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHakAkses.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmJenisObat.Designer.vb">
       <DependentUpon>FrmJenisObat.vb</DependentUpon>
     </Compile>
@@ -192,6 +198,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FrmHakAkses.resx">
+      <DependentUpon>FrmHakAkses.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmJenisObat.resx">
       <DependentUpon>FrmJenisObat.vb</DependentUpon>
     </EmbeddedResource>

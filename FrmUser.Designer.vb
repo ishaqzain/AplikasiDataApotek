@@ -139,6 +139,7 @@ Partial Class FrmUser
         '
         Me.TxtUlangPassword.Location = New System.Drawing.Point(211, 180)
         Me.TxtUlangPassword.Name = "TxtUlangPassword"
+        Me.TxtUlangPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TxtUlangPassword.Size = New System.Drawing.Size(261, 31)
         Me.TxtUlangPassword.TabIndex = 61
         '
@@ -146,6 +147,7 @@ Partial Class FrmUser
         '
         Me.TxtPassword.Location = New System.Drawing.Point(211, 129)
         Me.TxtPassword.Name = "TxtPassword"
+        Me.TxtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TxtPassword.Size = New System.Drawing.Size(261, 31)
         Me.TxtPassword.TabIndex = 60
         '
@@ -231,6 +233,7 @@ Partial Class FrmUser
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "FrmUser"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "Form User"
         CType(Me.DgPengguna, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
