@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FrmLprDataObat
+Partial Class FrmLprPenjualan
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,7 +23,7 @@ Partial Class FrmLprDataObat
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.CrystalReportViewer1 = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
-        Me.LprDataObat1 = New AplikasiDataApotek.LprDataObat()
+        Me.LprPenjualan1 = New AplikasiDataApotek.LprPenjualan()
         Me.SuspendLayout()
         '
         'CrystalReportViewer1
@@ -34,23 +34,23 @@ Partial Class FrmLprDataObat
         Me.CrystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.CrystalReportViewer1.Location = New System.Drawing.Point(0, 0)
         Me.CrystalReportViewer1.Name = "CrystalReportViewer1"
-        Me.CrystalReportViewer1.ReportSource = Me.LprDataObat1
-        Me.CrystalReportViewer1.Size = New System.Drawing.Size(1692, 694)
+        Me.CrystalReportViewer1.ReportSource = Me.LprPenjualan1
+        Me.CrystalReportViewer1.Size = New System.Drawing.Size(1715, 759)
         Me.CrystalReportViewer1.TabIndex = 0
         Me.CrystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None
         '
-        'FrmLprDataObat
+        'FrmLaporPenjualan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1692, 694)
+        Me.ClientSize = New System.Drawing.Size(1715, 759)
         Me.Controls.Add(Me.CrystalReportViewer1)
-        Me.Name = "FrmLprDataObat"
-        Me.Text = "Laporan Data Obat"
+        Me.Name = "FrmLaporPenjualan"
+        Me.Text = "Laporan Penjualan"
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents CrystalReportViewer1 As CrystalDecisions.Windows.Forms.CrystalReportViewer
-    Friend WithEvents LprDataObat1 As LprDataObat
+    Friend WithEvents LprPenjualan1 As LprPenjualan
 End Class
