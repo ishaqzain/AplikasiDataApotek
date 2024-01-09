@@ -11,7 +11,7 @@ Public Class ClsKoneksi
     Protected Dt As DataTable
 
     Public Function OpenConn() As Boolean
-        Cn = New OleDb.OleDbConnection("Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;User ID=ishaq;Password=123ishaq;Initial Catalog=DbApotek;Data Source=DESKTOP-J1PER27\SQLEXPRESS")
+        Cn = New OleDb.OleDbConnection("Provider=SQLOLEDB.1;Data Source=.\SQLEXPRESS;Integrated Security=SSPI;Initial Catalog=DbApotekPublic")
         Cn.Open()
         If Cn.State <> ConnectionState.Open Then
             Return False
